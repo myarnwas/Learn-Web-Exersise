@@ -1,0 +1,110 @@
+<!--لو طلبوا منك معلومات عن نظام التشغيل الي انت بتستخدمهواعطوك الخيارات
+MAC Windos Linex>>>>>>>> Radio تختار حاجه وحدة من مجموعه حجات
+CheakBox>>>>list of options بتختار اكتر من حاجه بنفس الوقتمثلا هواياتك
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <input type="hidden" value="mayar">
+<!--
+هلا هاد الكود بعمل في حال ضغطت على الدائرة بسس
+
+      <div>
+        <label>Number</label>
+        <input type="number" name="Number" min="10" max="100" step="10">
+      </div>
+
+    <br>
+      <div>
+       <input type="radio" name="OS" value="Windos" checked>
+      <!--checked>>>دي يعني انه بختاره اول حاجه وده مايمعنش من التغيير
+    يعنس بنفع اغير عادي
+      <label>Windos</label>
+    </div>
+    <br>
+    <div>
+      <input type="radio" name="OS" value="linux">
+      <label>linux</label>
+    </div>
+    <br>
+    <div>
+      <input type="radio" name="OS" value="MAC">
+      <label>MAC</label>
+    </div>
+    <br>
+   -->
+
+
+
+
+
+
+
+
+
+<!--اما هاد بعمل برضو لو ضغطت كمان على الكلمه نفسها
+بنربط id for >>labelالخاصة فيه عن طريق
+احفظيها كده ليبل فور وين
+
+-->
+
+
+     <div>
+       <!--الحركه دي يعني لما تدوس على كلمه نمبر بجهز وضهية الكتابه-->
+       <label for="num">Number</label>
+       <input id="num" type="number" name="Number" min="10" max="100" step="10">
+     </div>
+
+     <br>
+     <div>
+       <input id="win" type="radio" name="OS" value="Windos" checked>
+       <label for="win">Windos</label>
+     </div>
+     <br>
+     <div>
+       <input type="radio" name="OS" value="linux">
+       <label>linux</label>
+     </div>
+     <br>
+     <div>
+       <input type="radio" name="OS" value="MAC">
+       <label>MAC</label>
+     </div>
+     <br>
+
+
+
+
+<!--id مينفعش يتكرر في الصفحة
+هلا دور مثال CheakBox-->
+  <div>
+    <label for="num">Number</label>
+    <input id="num" type="number" name="Number" min="10" max="100" step="10">
+  </div>
+
+<br>
+  <div>
+    <input id="win1" type="checkbox" name="OS" value="Windos" checked>
+    <label for="win1">Windos</label>
+  </div>
+<br>
+  <div>
+    <input type="checkbox" name="OS" value="linux">
+    <label>linux</label>
+  </div>
+<br>
+  <div>
+    <input type="checkbox" name="OS" value="MAC">
+    <label>MAC</label>
+  </div>
+<br>
+      <input type="submit" value="save">
+      <input type="reset" value="reset">
+    </form>
+  </body>
+</html>

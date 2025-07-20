@@ -1,0 +1,45 @@
+<!--select>>> بكون عندك options وانت بتختار 1 او 2 حسب م بدك
+تستخدم في حال عدد الخيارات المتاحة كبييييييرة جدا مثلا 400دولة
+داخله بنستخدم الاوبشن وفيه value text
+هلا لو المجموعه هاي في تقسيمات كتير اوي ومتفرعه ممكن احطها داخل optgroup
+
+ممكن اسمح للشخص يختار اكتر من كتاب من multipleمن الانبوت اكتر من قيمه عن طريق نضغط الاول مع
+ctrl ثم نضغط الثاني
+
+selected>>>ممكن استخدم خيار افتراضي عن طريق
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <label for="book">choose book</label>
+    <select name="book" id="book" multiple>
+      <optgroup label="Ro">
+        <option value="1">book1</option>
+        <option value="2">book2</option>
+        <option value="3">book3</option>
+      </optgroup>
+      <optgroup label="Po">
+        <option value="4" selected>book4</option>
+        <option value="5">book5</option>
+        <option value="6">book6</option>
+      </optgroup>
+    </select>
+    <hr>
+<!--Textarea
+المنطقة لكتابة الكود
+وهو العنصر الوحيد المختلف في الانبوت لانه له قفله
+-->
+
+<textarea name="sub" rows="8" cols="80" placeholder="text"></textarea>
+
+
+
+    <hr>
+    <input type="submit" value="send">
+    <input type="reset" value="reset">
+  </body>
+</html>

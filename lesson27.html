@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <form action="" method="post">
+      <!--بيانات مفش داعي المستخدم يشوفها لايا سبب كان-->
+      <input type="hidden" value="mayar">
+      <div>
+        <label>Name is</label>
+        <input type="text" required name="user">
+      </div>
+        <br>
+      <div>
+        <label>Password</label>
+        <input type="password" placeholder="Password" name="pass">
+    </div>
+      <br>
+    <div>
+      <label>Email</label>
+      <input type="email" required placeholder="write avalid email" value="o@n.sa" name="mail">
+    </div>
+    <br>
+   <div>
+    <label>Color</label>
+    <input type="color" name="Color">
+   </div>
+    <br>
+   <div>
+     <!--هاد ازبط من color
+وهو بكون من حاجة لحاجة
+
+   -->
+    <label>Rang</label>
+    <input type="range" name="Rang" min="0" max="100" step="20" value="0">
+   </div>
+   <br>
+  <div>
+   <label>Number</label>
+   <input type="number" name="Number" min="10" max="100" step="10">
+  </div>
+      <input type="submit" value="save">
+      <!--deleat all البيانات-->
+      <input type="reset" value="reset">
+    </form>
+  </body>
+</html>

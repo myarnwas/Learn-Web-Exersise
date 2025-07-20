@@ -1,0 +1,32 @@
+<!--عاالم الصوتيات -->
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Book Store</title>
+    <meta name="description" content="This Is Our Book Store" />
+  </head>
+  <body>
+    <div>
+      <h1>Book Store</h1>
+      <p>This Is My Book Store, Welcome</p>
+    </div>
+    <!--<audio src="هاد بتكتب فيه المسار بتاع الملف">
+      او خارجه عن طريق السورس والحكمه منه ان الباوزر بشوف ايه المناسب فيهم وبشغله
+      بينما لو كتبته زي الطريقه الي فووق ممكن الباوزر ميدعمهوش
+    </audio>-->
+    <audio controls autoplay loop muted>
+       <!--  في الغالب استخدام هاد دايما بزبط وبعم المتصفحات الحديثة-->
+      <source src="media/one_way_ticket.mp3" type="audio/mpeg">
+      <source src="media/one_way_ticket.ogg" type="audio/ogg">
+      <source src="media/one_way_ticket.wav" type="audio/wav">
+<!--في حال الباوزر هاد مش سابوزد الاامتداد الي حطيناه ساعتها مش حيشوف ولا حاجة ولا يظهرله حاجه فبعرضله هاي الرساله-->
+      Your Browser Does Not Support Audio Tags
+    </audio>
+    <!-- controls >>>> تظهر الزرار تعات رفع وخفض الصوت والتشغيل
+autoplay >>>   بشغلش ع فيرفوكس بشتغل ع ايدج بعمل تشغيل ع طول
+loop >>> التكرار
+muted >>> تجعل الصوت صامت
+  -->
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<!--الدرس ده ادفانسد مهمم في الباك اند-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <!--لينك الصفحة او المكان الي انت حتبعتلها البيانات دي كلهاaction
+action="mayar.php" ح يبعت البيانات ع الملف ده
+action="" <ح يبعت البيانات ع نفس الصفحة<نفس الحاجة لو انت ماستتعملتش الاكشن
+بنكتبه عند form
+  -->
+  <!--name بسمى كل انبوت فيهم وبميز الحقول دي عن بعض لما يبعتها
+ممكن تسميه زي م انت عايز
+بنكتبه عند input
+عشان تشوف بياناتك الي سجلتها في name>>network>>payload
+-->
+
+<!--طرق الارسال نوعين ح نشرحهم
+Get >>> ببعت االبيانات فوق يعني بتكون ظاهرة فوق البيانت تاعتي <<method="Get"
+Post >>>بتخليشش البيانات تبان فوق في URL
+لكن البياناات بتكون انبعتت ووصلت
+method="Post"
+dialog
+-->
+<!--
+required>>> should fill this field
+placeholder>>> بكون مكتوب لكن اول م ابدا اعبي بتروح
+-->
+    <form action="" method="Post">
+      <div>
+        <label>Name is</label>
+        <input type="text" required name="user">
+      </div>
+        <br>
+      <div>
+        <label>Password</label>
+        <input type="password" placeholder="Password" name="pass">
+    </div>
+      <br>
+    <div>
+      <label>Email</label>
+      <input type="email" required placeholder="write avalid email" value="o@n.sa" name="mail">
+    </div>
+      <input type="submit" value="save">
+    </form>
+  </body>
+</html>
